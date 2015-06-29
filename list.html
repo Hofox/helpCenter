@@ -1,0 +1,18 @@
+    <div class="listbox">
+        <ul id="Qlist">
+            <li><a href="javascript:;">11</a></li>
+            <li><a href="javascript:;">22</a></li>
+            <li><a href="javascript:;">33</a></li>
+        </ul>
+    </div>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script>
+    $(function(){
+        $('#Qlist a').live('click',function(){
+            $("#content").load('article.html');
+        })
+    })
+</script>
+
+   
